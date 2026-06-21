@@ -1,0 +1,38 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js 构建输出
+.next/
+out/
+
+# 环境变量（不要上传真实密钥）
+.env
+.env.local
+.env.production
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Docker 构建缓存和镜像
+docker-compose.override.yml
+
+# 临时文件
+cookies.txt
+login.json
+build.log
